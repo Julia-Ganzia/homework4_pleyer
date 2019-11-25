@@ -1,0 +1,116 @@
+nav {
+    height: 200px;
+    width: 60%;
+    position: relative;
+    background:linear-gradient(to top, #282828,#535353);
+    margin-left: 20%;
+}
+
+#form,
+ul{
+    height: 30%;
+    text-align: center;
+    position: absolute;
+    background:linear-gradient(#727A8B,#212328);
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1.5px;
+    opacity: 0.9; /*прозрачность фона*/
+    align-items: center;/*Центрировать элементы в поперечной оси*/
+    border-top-color: transparent;/*Цвет верхней границы прозрачный*/
+}
+
+ul{
+    list-style-type: none; /*убирает маркер/нумерацию*/
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    display: inline-block;
+    display: flex;
+    bottom: 50%;
+    right: 22%;
+    width: 50%;
+}
+
+li {
+    display: inline-block; /*отображает список в ряд*/
+    flex: 1;
+}
+
+.input_group,
+button{
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #1E2432;
+}
+
+#text,
+input::placeholder,
+button{
+    text-transform: capitalize; /*делает заглавную первую букву*/
+    font-size: 12px;
+    font-family: sans-serif;/*вид шрифта*/
+    font-weight: bold; /*шрифт жирным*/
+    color: white;
+    background:transparent;/*прозрачный фон*/
+    opacity: 0.9;
+}
+
+button {
+    text-align: center;
+    width: 80%;
+    height: 70%;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+button:hover/*наведен курсор мыши*/
+{
+    font-size: 15px;
+    height: 75%;
+    
+}
+
+#form
+{
+    bottom: 10%;
+    right: 28%;
+    display: flex; /*выстраивает вложеные элементы в ряд*/
+    width: 40%;  
+}
+
+input::placeholder{
+   outline:none;
+}
+
+.input_group{
+    width: 70%;
+    height: 50%;
+    border-radius: 20px;
+    margin: 15%;
+    background:#373D4A;
+    display: inline-block;
+    display: flex;
+    padding-left: 5%;   
+}
+
+#text{
+    border-style: none;
+    width: 85%;
+    outline:none;
+    
+}
+
+#text:hover{border:none;}
+
+.button_serch{
+   height: 74%;
+   border-style: none;
+   width: 10%;
+   margin-top: 2%;
+   background-image: url(https://cdn.icon-icons.com/icons2/957/PNG/128/search_icon-icons.com_74448.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+}
